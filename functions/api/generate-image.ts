@@ -83,7 +83,7 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
     },
   }
 
-  const GEMINI_MODEL = 'gemini-2.0-flash-exp'
+  const GEMINI_MODEL = 'gemini-2.0-flash-preview-image-generation'
   const geminiUrl = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${apiKey}`
 
   let geminiRes: Response
