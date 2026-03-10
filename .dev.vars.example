@@ -1,0 +1,5 @@
+# Cloudflare Pages Functions のローカル開発用環境変数
+# このファイルをコピーして .dev.vars を作成し、実際の値を入力してください
+# .dev.vars はgitignoreされています (絶対にコミットしないこと)
+
+GEMINI_API_KEY=AIzaSy...
